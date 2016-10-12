@@ -21,9 +21,7 @@ namespace AppiumTestFramework_v2.UnitTests
             AppiumManager testCapabilities = new AppiumManager();
             
             //testCapabilities.App = "com.viber.voip";
-            //testCapabilities.AppActivity = ".WelcomeActivity";
-
-            
+            //testCapabilities.AppActivity = ".WelcomeActivity";            
 
             testCapabilities.App = "com.sec.android.app.popupcalculator";
             testCapabilities.AppActivity = "com.sec.android.app.popupcalculator.Calculator";
