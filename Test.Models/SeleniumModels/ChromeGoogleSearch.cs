@@ -37,22 +37,5 @@ namespace Test.Models.SeleniumModels
             TxtLastName.SendKeys("Contreras");
             BtnSubmit.Submit();
         }
-
-        //[FindsBy(How = How.XPath, Using = "//*[@id='lst-ib']")]
-        //[CacheLookup]
-        //public IWebElement SearchBox { get; set; }
-
-        //[FindsBy(How = How.Id, Using = "//*[@value='search']")]
-        //[CacheLookup]
-        //public IWebElement ResultPanel { get; set; }
-
-        //[FindsBy(How = How.XPath, Using = ".//a")]
-        //[CacheLookup]
-        //IList<IWebElement> SearchResults { get; set; }
-
-        //public void SearchText(string searchString)
-        //{
-        //    SearchBox.SendKeys(searchString);            
-        //}
     }
 }

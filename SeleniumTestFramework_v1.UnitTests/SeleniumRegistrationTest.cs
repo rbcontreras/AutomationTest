@@ -7,7 +7,7 @@ using Test.Models.SeleniumModels;
 namespace SeleniumTestFramework_v1.UnitTests
 {
     [TestClass]
-    public class SeleniumGoogleWebSearchTest
+    public class SeleniumRegistrationTest
     {
         private IWebDriver _driver;
         private static TimeSpan INIT_TIMEOUT_SEC = TimeSpan.FromSeconds(180);
@@ -36,7 +36,7 @@ namespace SeleniumTestFramework_v1.UnitTests
         }
 
         [TestMethod]
-        public void SearchTestInGoogleChrome_Invalid()
+        public void RegisterInChrome_Invalid()
         {
             var page = new ChromeGoogleSearch(_driver);
             page.Register();
