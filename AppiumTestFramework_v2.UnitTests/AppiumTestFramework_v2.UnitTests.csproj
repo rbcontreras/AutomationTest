@@ -75,6 +75,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AndroidCalculatorAppiumTests.cs" />
+    <Compile Include="GoogleWebSearchTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
