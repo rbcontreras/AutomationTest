@@ -67,8 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AndroidModels\AndroidCalculator.cs" />
-    <Compile Include="AndroidModels\GoogleSearch.cs" />
+    <Compile Include="AndroidModels\AndroidGoogleSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleniumModels\ChromeGoogleSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

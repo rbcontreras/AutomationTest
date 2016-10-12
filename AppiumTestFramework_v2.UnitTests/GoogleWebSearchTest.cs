@@ -63,7 +63,7 @@ namespace AppiumTestFramework_v2.UnitTests
         [TestMethod]
         public void SearchTestInGoogle()
         {
-            var googleSearchPage = new GoogleSearch(_driver);
+            var googleSearchPage = new AndroidGoogleSearch(_driver);
             googleSearchPage.SearchText();
         }
         

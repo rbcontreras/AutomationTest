@@ -16,22 +16,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{839B06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumTestFramework_v2.UnitTests", "AppiumTestFramework_v2.UnitTests\AppiumTestFramework_v2.UnitTests.csproj", "{F47480D1-5713-49DD-8B83-F22CB4E3CABA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestFramework_v1", "SeleniumTestFramework_v1\SeleniumTestFramework_v1.csproj", "{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appium", "Appium", "{0FF938BD-52E2-40B6-A048-F6BD6F8086A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selenium", "Selenium", "{283B6968-FE26-480B-91D5-05B472DADB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestFramework_v1.UnitTests", "SeleniumTestFramework_v1.UnitTests\SeleniumTestFramework_v1.UnitTests.csproj", "{4CB0444E-1602-4AEC-B086-CC743F329710}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://raymondcontreras.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = AppiumTestFramework_v1\\AppiumTestFramework_v2.csproj
-		SccProjectName1 = AppiumTestFramework_v1
-		SccLocalPath1 = AppiumTestFramework_v1
-		SccProjectUniqueName2 = Test.Models\\Test.Models.csproj
-		SccProjectName2 = Test.Models
-		SccLocalPath2 = Test.Models
-		SccProjectUniqueName3 = AppiumTestFramework_v2.UnitTests\\AppiumTestFramework_v2.UnitTests.csproj
-		SccProjectName3 = AppiumTestFramework_v2.UnitTests
-		SccLocalPath3 = AppiumTestFramework_v2.UnitTests
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -49,8 +42,22 @@ Global
 		{F47480D1-5713-49DD-8B83-F22CB4E3CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47480D1-5713-49DD-8B83-F22CB4E3CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47480D1-5713-49DD-8B83-F22CB4E3CABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB0444E-1602-4AEC-B086-CC743F329710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB0444E-1602-4AEC-B086-CC743F329710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB0444E-1602-4AEC-B086-CC743F329710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB0444E-1602-4AEC-B086-CC743F329710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75F0B1C0-F873-4562-A18E-4332B50AEAFD} = {0FF938BD-52E2-40B6-A048-F6BD6F8086A2}
+		{F47480D1-5713-49DD-8B83-F22CB4E3CABA} = {0FF938BD-52E2-40B6-A048-F6BD6F8086A2}
+		{61E07C00-82CD-4E21-9B1C-BAEEAE6882E6} = {283B6968-FE26-480B-91D5-05B472DADB8F}
+		{4CB0444E-1602-4AEC-B086-CC743F329710} = {283B6968-FE26-480B-91D5-05B472DADB8F}
 	EndGlobalSection
 EndGlobal
