@@ -15,13 +15,13 @@ namespace SeleniumTestFramework_v1.UnitTests
 {    
     [TestFixture(typeof(FirefoxDriver))]
     [TestFixture(typeof(ChromeDriver))]    
-    public class SeleniumRegistrationCrossPlatformTest<TWebDriver> where TWebDriver : IWebDriver, new()
+    public class SeleniumRegistrationCrossPlatformUsingSeleniumGridNUnitTest<TWebDriver> where TWebDriver : IWebDriver, new()
     {
         private IWebDriver _driver;
         private static TimeSpan INIT_TIMEOUT_SEC = TimeSpan.FromSeconds(180);
         private static TimeSpan IMPLICIT_TIMEOUT_SEC = TimeSpan.FromSeconds(10);
 
-        public SeleniumRegistrationCrossPlatformTest()
+        public SeleniumRegistrationCrossPlatformUsingSeleniumGridNUnitTest()
         {
             Driver<TWebDriver>.Initialize(new Uri("http://localhost:4444/wd/hub"));
         }
@@ -30,8 +30,6 @@ namespace SeleniumTestFramework_v1.UnitTests
         public void InitializeTest()
         {
             _driver = Driver<TWebDriver>.Instance;
-            //DesiredCapabilities capabilities = DesiredCapabilities.Chrome();
-            //_driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), capabilities, INIT_TIMEOUT_SEC);
             
             _driver.Url = "http://demoqa.com/registration/";
             _driver.Manage().Timeouts().ImplicitlyWait(IMPLICIT_TIMEOUT_SEC);            
